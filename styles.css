@@ -17,7 +17,7 @@
 }
 
 .attribution p, a {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 
 body {
@@ -27,22 +27,9 @@ body {
     justify-self: center;
     align-items: center;
     min-height: 100vh;
-}
-
-.bg {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-}
-
-.bg.top {
-    top: -30%;
-    left: -50%;
-}
-
-.bg.bottom {
-    bottom: -30%;
-    right: -50%;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: right 50vw bottom 42vh, left 47vw top 46vh;
+    background-repeat: no-repeat;
 }
 
 main {
